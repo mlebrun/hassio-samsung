@@ -1,0 +1,28 @@
+{
+  "name": "hassio-samsung",
+  "version": "0.0.1",
+  "description": "Hass.io addon wrapping node.js tools to control Samsung Smart TVs.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "samsung-remote": "^1.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "samsung",
+    "smart",
+    "tv",
+    "hass",
+    "hassio",
+    "home",
+    "assistant"
+  ],
+  "author": "Matt LeBrun",
+  "license": "MIT"
+}
